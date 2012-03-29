@@ -1,6 +1,7 @@
 (ns soundcloud.core
-  (:require '[clojure.string :as str])
-　(:require '[clj-http.client :as client]))
+  (:refer-clojure :exclude [comment])
+  (:require [clojure.string :as str]
+            [clj-http.client :as client]))
 
 (def soundcloud-base-url "api.soundcloud.com")
 
